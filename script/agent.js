@@ -87,6 +87,14 @@ console.log(AttackOperator.length);
 function R6randomDefenseOperator(){
     
     const DefenseOperatorOutput = DefenseOperator[Math.floor(Math.random() * DefenseOperator.length)];
+    const DefenseOperatorOutput2 = DefenseOperator[0];
+       
+    const DefenseOperatorOutput3 = DefenseOperator[Math.floor(0.1 * DefenseOperator.length)];
+
+    console.log(DefenseOperatorOutput2)
+    console.log(DefenseOperatorOutput3)
+    console.log(Math.floor(0.1 * DefenseOperator.length))
+    console.log(Math.round(0.1 * DefenseOperator.length))
 
     document.getElementById("defense-output").innerHTML = `
     <p> ${DefenseOperatorOutput.operator} </p>
@@ -96,7 +104,7 @@ function R6randomDefenseOperator(){
 }
 
 function R6randomAttackOperator(){
-    
+               
     const AttackOperatorOutput = AttackOperator[Math.floor(Math.random() * AttackOperator.length)];
 
     document.getElementById("attack-output").innerHTML = `
