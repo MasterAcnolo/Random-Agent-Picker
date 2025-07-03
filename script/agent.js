@@ -104,3 +104,8 @@ function R6randomAttackOperator(){
     <img src="${AttackOperatorOutput.icon}">
     `;
 }
+
+function PickBoth(){
+  R6randomAttackOperator();
+  R6randomDefenseOperator();
+}
