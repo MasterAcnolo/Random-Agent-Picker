@@ -116,4 +116,5 @@ function R6randomAttackOperator(){
 function PickBoth(){
   R6randomAttackOperator();
   R6randomDefenseOperator();
+  R6randomMap();
 }

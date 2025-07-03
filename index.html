@@ -18,7 +18,7 @@
     </header>
 
     <div class="pick-both-container">
-        <button id="pick-both-btn" onclick="PickBoth()">Pick Both</button>
+        <button id="pick-both-btn" onclick="PickBoth()">Pick All</button>
     </div>
 
     <div class="container">
@@ -36,8 +36,14 @@
 
     </div>
     
+    <div class="map">
+        <button id="map-submit" onclick="R6randomMap()">Get Map</button>
+        <div id="map-output" class="map-output"></div>
+    </div>
+
+
     <script src="script/loader.js"></script>
     <script src="script/agent.js"></script>
-
+    <script src="script/maps.js"></script>
 </body>
 </html>
